@@ -41,11 +41,16 @@ def preprocess_user_input(user_input):
 
 def bot_class_prediction(user_input):
 
-    inp = preprocess_user_input(user_input)
-    prediction = model.predict(inp)
-    predicted_class_label = np.argmax(prediction[0])
-    return predicted_class_label
+    ########################################################
 
+
+
+   ################## ADD CODE HERE  #############################
+
+
+
+
+   #####################################################
 
 def bot_response(user_input):
 
